@@ -30,6 +30,8 @@ function loadBooks(Bookshelf) {
 			Bookshelf.addFavoriteBook(bookName)
 		}
 
+		Bookshelf.printFavoriteBooks();
+
 	});
 }
 
